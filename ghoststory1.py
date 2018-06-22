@@ -1,13 +1,21 @@
-inputone = input("Well, you're dead. What is there to do now? ")
-
+print("""
+Well, that's it, you're dead. You lived a good life, probably. Ask not for whom the bell tolls. It tolls for thee, at least right now. We are at the hour of judgement. More specifically, yours. Yet there is no booming voice of authority. The clouds have not parted. You merely float above your corpse, your shell. ...You float. This is the end, but... it is not the end. You can see. You can move. No sound, smell, or touch. But there is something. Religion, or lack thereof, as you know it has crashed out the window. Perhaps, though... perhaps there is something out there. You just have to find it. Do you want to? The world, the universe, is yours to explore. So with that, the real question is...
+""")
 #looking to prompt multiple inputs from user at different points. Previous inputs affect subsequent inputs.
 #inputone = the first input from the user. prompted after the prologue.
+inputone = input("Where do you go now? ")
+
+
+chapterone_home = """
+Even being deprived of your sense can't stop homesickness. Where else are you to really go, but the one place you can truly call home? Even without the sense of smell... you can feel the aroma, imagine those senses of home. Fresh baked chocolate chip on a cooling rack. The pitter-patter of puppy paws. The glowing hearth of the family television. It's not glowing right now, though. Nobody's home. Wonder where they could be...
+"""
+
 if inputone = home
-	print("home chapter")
+	print(chapterone_home)
 elif inputone = ocean
-	print("ocean chapter")
+	print(chapterone_ocean)
 elif inputone = space
-	print("space chapter") 
+	print(chapterone_space) 
 
 #end of each chapter, prompts a sort of "ok, where to next? open ended like the old text adventures like Zork. 
 
